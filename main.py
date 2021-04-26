@@ -89,6 +89,6 @@ def main():
 
     vis.test_plot(X_test, y_test, predictions_array, classes)
 
-    print("\n\nAccuracy of Classifier on Test Dataset: {acc: .2f}%".format(acc = acc*100))
+    print("\n\nAccuracy of Classifier on the test Dataset: {acc: .2f}%".format(acc = acc*100))
 
 main()
